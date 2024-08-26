@@ -1,0 +1,177 @@
+Best Architecture and Epoch for Overall and Class-specific Accuracy
+Best Performance:
+
+    Architecture: Resnet 34
+    Epochs: 25
+    Overall Accuracy: 0.9542
+    Class-specific Accuracies: Generally high across all classes
+
+All Results in Order of Overall Accuracy:
+
+    Resnet 34 - 25 epochs
+        Overall Accuracy: 0.9542
+        Recall (macro): 0.9543
+        F1 Score (macro): 0.95
+
+    Resnet 34 - 40 epochs
+        Overall Accuracy: 0.9534
+        Recall (macro): 0.9535
+        F1 Score (macro): 0.95
+
+    Resnet 50 - 40 epochs
+        Overall Accuracy: 0.9454
+        Recall (macro): 0.9454
+        F1 Score (macro): 0.95
+
+    Resnet 50 - 25 epochs
+        Overall Accuracy: 0.9352
+        Recall (macro): 0.9347
+        F1 Score (macro): 0.94
+
+    Resnet 50 - 15 epochs
+        Overall Accuracy: 0.9409
+        Recall (macro): 0.9409
+        F1 Score (macro): 0.94
+
+    Resnet 34 - 15 epochs
+        Overall Accuracy: 0.9423
+        Recall (macro): 0.9425
+        F1 Score (macro): 0.94
+
+    Resnet 18 - 40 epochs
+        Overall Accuracy: 0.9293
+        Recall (macro): 0.9296
+        F1 Score (macro): 0.93
+
+    Resnet 18 - 25 epochs
+        Overall Accuracy: 0.9293
+        Recall (macro): 0.9296
+        F1 Score (macro): 0.93
+ 
+order of acuracy 
+        
+Resnet 34 - 25 Epochs
+
+    Overall Accuracy: 0.9541855586384246
+    Training Time: 4 minutes 52 seconds
+    Class-specific Accuracies:
+        Tomato___Bacterial_spot: 0.98236092265956
+        Tomato___Early_blight: 0.9239752333586626
+        Tomato___Late_blight: 0.8130637514231499
+        Tomato___Leaf_Mold: 0.9888155568899387
+        Tomato___Septoria_leaf_spot: 0.9696123643403597
+        Tomato___Tomato_Yellow_Leaf_Curl_Virus: 0.9805690113651477
+        Tomato___Tomato_mosaic_virus: 0.9770612200425074
+        Tomato___healthy: 0.9989615784008308
+
+Resnet 34 - 40 Epochs
+
+    Overall Accuracy: 0.9534411585572173
+    Training Time: 7 minutes 49 seconds
+    Class-specific Accuracies:
+        Tomato___Bacterial_spot: 0.9752908318066452
+        Tomato___Early_blight: 0.9072970193129616
+        Tomato___Late_blight: 0.8297909407665505
+        Tomato___Leaf_Mold: 0.9834782608695652
+        Tomato___Septoria_leaf_spot: 0.9707724425887265
+        Tomato___Tomato_Yellow_Leaf_Curl_Virus: 0.9888461538461538
+        Tomato___Tomato_mosaic_virus: 0.9732219968577228
+        Tomato___healthy: 0.9994807892004154
+
+Resnet 34 - 15 Epochs
+
+    Overall Accuracy: 0.9423428300737633
+    Training Time: 2 minutes 59 seconds
+    Class-specific Accuracies:
+        Tomato___Bacterial_spot: 0.9800197944833376
+        Tomato___Early_blight: 0.8983572895277203
+        Tomato___Late_blight: 0.7876895210520667
+        Tomato___Leaf_Mold: 0.9765765765765766
+        Tomato___Septoria_leaf_spot: 0.9598669623059867
+        Tomato___Tomato_Yellow_Leaf_Curl_Virus: 0.9846707317073171
+        Tomato___Tomato_mosaic_virus: 0.9602893890675241
+        Tomato___healthy: 0.9921602787456446
+
+Resnet 50 - 40 Epochs
+
+    Overall Accuracy: 0.9453881031332476
+    Training Time: 11 minutes 16 seconds
+    Class-specific Accuracies:
+        Tomato___Bacterial_spot: 0.977141065830721
+        Tomato___Early_blight: 0.9063478487367087
+        Tomato___Late_blight: 0.7898391453120654
+        Tomato___Leaf_Mold: 0.9936385973279506
+        Tomato___Septoria_leaf_spot: 0.9759487750556793
+        Tomato___Tomato_Yellow_Leaf_Curl_Virus: 0.9872546378959263
+        Tomato___Tomato_mosaic_virus: 0.9335276967930029
+        Tomato___healthy: 0.9994807892004154
+
+Resnet 50 - 25 Epochs
+
+    Overall Accuracy: 0.9351695202003113
+    Training Time: 7 minutes 18 seconds
+    Class-specific Accuracies:
+        Tomato___Bacterial_spot: 0.9630580707110406
+        Tomato___Early_blight: 0.8911116725156794
+        Tomato___Late_blight: 0.8189616231565788
+        Tomato___Leaf_Mold: 0.993582230623818
+        Tomato___Septoria_leaf_spot: 0.9668300653594772
+        Tomato___Tomato_Yellow_Leaf_Curl_Virus: 0.9893038039399645
+        Tomato___Tomato_mosaic_virus: 0.8552631578947368
+        Tomato___healthy: 0.9994807892004154
+
+Resnet 50 - 15 Epochs
+
+    Overall Accuracy: 0.9409446693657219
+    Training Time: 4 minutes 47 seconds
+    Class-specific Accuracies:
+        Tomato___Bacterial_spot: 0.9606831560167797
+        Tomato___Early_blight: 0.8629785841843318
+        Tomato___Late_blight: 0.8185014862201405
+        Tomato___Leaf_Mold: 0.9878489208633094
+        Tomato___Septoria_leaf_spot: 0.9616113744075829
+        Tomato___Tomato_Yellow_Leaf_Curl_Virus: 0.9939189189189189
+        Tomato___Tomato_mosaic_virus: 0.9441403250211161
+        Tomato___healthy: 0.9974405273578709
+
+Resnet 18 - 40 Epochs
+
+    Overall Accuracy: 0.9293496650199634
+    Training Time: 4 minutes 51 seconds
+    Class-specific Accuracies:
+        Tomato___Bacterial_spot: 0.9800000000000001
+        Tomato___Early_blight: 0.8604089560936374
+        Tomato___Late_blight: 0.7493076923076923
+        Tomato___Leaf_Mold: 0.9612359550561798
+        Tomato___Septoria_leaf_spot: 0.9610169491525424
+        Tomato___Tomato_Yellow_Leaf_Curl_Virus: 0.9825825825825826
+        Tomato___Tomato_mosaic_virus: 0.9006024096385543
+        Tomato___healthy: 0.9994813278008299
+
+Resnet 18 - 25 Epochs
+
+    Overall Accuracy: 0.9293496650199634
+    Training Time: 3 minutes 2 seconds
+    Class-specific Accuracies:
+        Tomato___Bacterial_spot: 0.9606831560167797
+        Tomato___Early_blight: 0.8629785841843318
+        Tomato___Late_blight: 0.8185014862201405
+        Tomato___Leaf_Mold: 0.9878489208633094
+        Tomato___Septoria_leaf_spot: 0.9616113744075829
+        Tomato___Tomato_Yellow_Leaf_Curl_Virus: 0.9939189189189189
+        Tomato___Tomato_mosaic_virus: 0.9441403250211161
+        Tomato___healthy: 0.9974405273578709
+
+Resnet 18 - 15 Epochs
+
+    Overall Accuracy: 0.9186573729444407
+    Training Time: 1 minute 51 seconds
+    Class-specific Accuracies:
+        Tomato___Bacterial_spot: 0.9548276614313542
+        Tomato___Early_blight: 0.8504854368932039
+        Tomato___Late_blight: 0.7780104712041884
+        Tomato___Leaf_Mold: 0.9712643678160919
+        Tomato___Septoria_leaf_spot: 0.917554955768346
+        Tomato___Tomato_Yellow_Leaf_Curl_Virus: 0.9820274914089347
+        Tomato___Tomato_mosaic_virus: 0.9335403726708074
+        Tomato___healthy: 0.9990268065268065
